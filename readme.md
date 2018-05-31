@@ -5,13 +5,13 @@
 ### Requirements
 
 * `pipenv`
-* `redis 3.0.9`
+* `redis 3.0.9` accessible at localhost:6379
 
 ##  Running
 
 Open 3 terminals.  In the first, start the API server.  In the second start
 the celery worker.  The 3rd terminal will be used to kick off the request and
-start show the channels:
+show the channels.
 
 Relevant Files Are:
 
